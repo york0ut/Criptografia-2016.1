@@ -11,7 +11,10 @@ def fermat(n):
 		aux = int(sqrt(x*x-n)) - sqrt(x*x-n)
 	p = x+y
 	q = x-y
-	print p
-	print q
+	if q== 1:
+		print "O número é primo"
+	else:
+		print p
+		print q
 
 fermat(101)
