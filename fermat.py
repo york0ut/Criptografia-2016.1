@@ -12,7 +12,7 @@ def fermat(n):
 	p = x+y
 	q = x-y
 	if q== 1:
-		print "O número é primo"
+		print "O numero eh primo"
 	else:
 		print p
 		print q
